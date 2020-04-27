@@ -250,7 +250,7 @@ header {
     display: inline-block;
     width: 71px;
     height: 71px;
-    background: url('img/play_btn.png') no-repeat;
+    background: url('../img/play_btn.png') no-repeat;
     margin-top: 40px;
 }
 
