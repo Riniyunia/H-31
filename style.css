@@ -1,0 +1,469 @@
+/*  Fonts  */
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway-regular.ttf') format('truetype'),
+         url('../fonts/raleway-regular.svg#raleway-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-semibold';
+    src: url('../fonts/raleway-semibold.eot');
+    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-semibold.woff') format('woff'),
+         url('../fonts/raleway-semibold.ttf') format('truetype'),
+         url('../fonts/raleway-semibold.svg#raleway-semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/raleway-bold.eot');
+    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold.woff') format('woff'),
+         url('../fonts/raleway-bold.ttf') format('truetype'),
+         url('../fonts/raleway-bold.svg#raleway-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*  General CSS*/
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+ 
+.clearfix {  
+    *zoom: 1;  
+}
+
+
+/*    Header    */
+header {
+  background-color: transparent;
+  z-index: 10;
+  margin: 0 auto;
+  height: 65px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.header-right {
+  float: right;
+
+}
+
+.header-right a {
+  color: #fff;
+  float: left;
+  line-height: 65px;
+  display: block;
+  padding: 0 25px;
+  background-color: rgb(138,43,226);
+  opacity: 0.8;
+}
+
+.header-right a:hover {
+  opacity: 1;
+  border: 1px solid #fff;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 5px 5px;
+  display: none;
+  border-radius: 2px;
+  background-color: rgb(138,43,226);
+  opacity: 0.8;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+  transition: all 0.7s;
+}
+
+/*    billboard   */
+.billboard {
+  background-image: url('https://image.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg');
+  background-size: cover;
+  padding: 200px 0px 180px 0px;
+  position: relative;
+  text-align: center;
+}
+
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 92px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -1px;
+  background: url('../img/shadow.png') repeat-x;
+}
+
+.billboard h1 {
+  font-size: 45px;
+  font-weight: normal;
+  color: #fff;
+  opacity: 0.8;
+  padding-bottom: 10px;
+}
+
+.billboard p {
+  color: white;
+  opacity: 0.8;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.learn-more {
+  background-color: transparent;
+  border: 2px solid rgb(138,43,226);
+  display: inline-block;
+  border-radius: 5px;
+  padding: 12px 24px;
+  color: white;
+}
+
+.learn-more:hover {
+  background-color: rgb(138,43,226);
+  transition: all 0.5s;
+}
+
+/*    projects    */
+.projects-list {
+  width: 100%;
+  display: block;
+  padding: 50px 10%;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.project {
+  width: 25%;
+  display: inline-block;
+  float: left;
+  height: 100px;
+  margin-bottom: 25px;
+  text-align: left;
+  padding-left: 44px;
+}
+
+.project h2 {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+.project p{
+  font-size: 18px;
+  text-align: justify;
+}
+
+.more {
+  color: #4169E1;
+}
+
+.more:hover {
+  color: rgb(138,43,226);
+}
+
+/*    Video    */
+.video{
+    display: block;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin-top: 80px;
+    background: url('../img/video-01.jpeg') no-repeat;    
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.video .video_logo{
+    margin-top: 85px;
+}
+
+.video h3{
+    color: #fff;
+    font-family: "raleway-regular";
+    font-size: 14px;
+    font-weight: normal!important;
+    margin: 20px 0 0 0;
+}
+
+.video #play_btn{
+    display: inline-block;
+    width: 71px;
+    height: 71px;
+    background: url('../img/play_btn.png') no-repeat;
+    margin-top: 40px;
+}
+
+/*    testimonials    */
+.testimonials {
+    margin-top: 100px;
+}
+
+.testimonials h2 {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.testimonials h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  color: #7b7979
+}
+
+.testimonials ul{
+    margin-top: 70px;
+    list-style: none;
+    padding: 20px 10%;
+    margin-bottom: 100px;
+    min-height: 333px;
+}
+
+.testimonials li{
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding-left: 54px;
+    width: 20%;
+}
+
+.testimonials ul li:first-child{
+    margin-left: 0;
+}
+
+.testimonials ul li .quotes{
+    margin-right: 10px;
+}
+
+.testimonials ul li p{
+    color: black;
+    font-family: "raleway-regular";
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ecebeb;
+    position: relative;
+}
+
+.testimonials ul li p .triangle{
+    display: block;
+    width: 10px;
+    height: 5px;
+    background: url('../img/testimonial_triangle.png') no-repeat;
+    position: absolute;
+    bottom: -5px;
+    left: 40px;
+}
+
+.testimonials ul li .client{
+    margin-left: 20px;
+}
+
+.testimonials ul li .client img.avatar{
+    float: left;
+    margin-right: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.testimonials ul li .client .client_details{
+    float: left;
+}
+
+.testimonials ul li .client .client_details h4{
+    color: #7b7979;
+    font-family: "raleway-semibold";
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.testimonials ul li .client .client_details h5{
+    color: #7b7979;
+    font-family: "raleway-regular";
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.separator {
+  display: none;
+}
+
+
+/*    blog posts    */
+.blog_posts{
+    margin-top: 100px;
+    padding: 100px 0;
+    background: #fafafa;
+}
+
+.blog_post h2 {
+  text-align: center;
+}
+
+.blog_post h3 {
+  text-align: center;
+}
+
+.blog_posts ul{
+    list-style: none;
+    margin-top: 70px;
+}
+
+.blog_posts ul li{
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    padding: 30px 45px;
+    float: left;
+}
+
+.blog_posts ul li:first-child{
+    margin-left: 0;
+}
+
+.blog_posts ul li .media .date{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 40px;
+    padding: 10px 0;
+    background: rgba(138,43,226,0.8);
+    text-align: center;
+}
+
+.blog_posts ul li .media .date span{
+    display: block;
+}
+
+.blog_posts ul li .media .date .day{
+    color: #fff;
+    font-family: "raleway-bold";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blog_posts ul li .media .date .month{
+    color: #fff;
+    font-family: "raleway-regular";
+    font-size: 12px;
+}
+
+.blog_posts ul li .media{
+    width: 230px;
+    height: 230px;
+    position: relative;
+}
+
+.blog_posts ul li h1{
+    color: white;
+    font-family: "raleway-regular";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 20px 0 0 0;
+    position: absolute;
+    top: 44%;
+    background-color: rgba(138,43,226,0.8);
+    border-radius: 3px;
+}
+
+/*    footer    */
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #000000;
+  font-size: 15px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer li {
+  float: right;
+  list-style: none;
+  padding: 20px 10px;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
+a {
+  color: #000000;
+}
+
+.footer-list {
+  bottom: 0px;
+  right: 90px;
+}

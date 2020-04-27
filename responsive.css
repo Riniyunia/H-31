@@ -1,0 +1,156 @@
+@media (max-width: 1000px) {
+
+.menu-icon {
+  display: block;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.billboard h1 {
+  font-size: 38px;
+}
+
+.billboard p {
+  font-size: 14px;
+}
+
+.projects {
+  min-height: 350px;
+}
+
+.project {
+  width: 50%;
+  padding-left: 54px;
+  height: 150px;
+}
+
+.testimonials ul{
+   min-height: 800px;
+   margin-bottom: 100px;
+}
+
+.testimonials li {
+  width: 50%;
+  padding-bottom: 66px;
+}
+
+.blog_posts{
+    background: #fff;
+}
+
+
+.blog_posts ul {
+  flex-wrap: wrap;
+}
+
+.blog_posts ul li {
+  width: 50%;
+  padding-left: 30px;
+}
+
+footer {
+    text-align: center;
+  }
+
+.container p {
+  color: blueviolet;
+}
+
+.footer-list li {
+  float: inherit;
+}
+
+.footer-list a {
+  color: black;
+}
+}
+
+@media (max-width: 670px) {
+
+.menu-icon {
+  display: block;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.billboard h1 {
+  font-size: 28px;
+}
+
+.billboard p {
+  font-size: 14px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.project {
+  width: 100%;
+  margin-bottom: 25px;
+  height: auto;
+}
+
+.projects-list {
+  min-height: 667px;
+  margin-bottom: 50px;
+}
+
+.project p {
+  font-size: 16px;
+}
+
+.blog_posts{
+    background: #fff;
+}
+
+.testimonials ul {
+  height: 1100px;
+  margin-bottom: 100px;
+}
+
+.testimonials li {
+    width: 100%;
+}
+
+.testimonials h3 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.video {
+  margin-top: 100px;
+}
+
+.blog_posts ul {
+  text-align: center;
+}
+
+.blog_posts ul li{
+  width: 100%;
+}
+
+.testimonials ul {
+   height: 1300px;
+   margin-bottom: 100px;
+}
+
+footer {
+    text-align: center;
+  }
+
+.container p {
+  color: blueviolet;
+}
+
+.footer-list li {
+  float: inherit;
+}
+
+.footer-list a {
+  color: black;
+}
+
+}
