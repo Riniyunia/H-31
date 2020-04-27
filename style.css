@@ -227,7 +227,7 @@ header {
     height: 350px;
     text-align: center;
     margin-top: 80px;
-    background: url('../img/video-01.jpeg') no-repeat;    
+    background: url('img/video-01.jpg') no-repeat;    
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
